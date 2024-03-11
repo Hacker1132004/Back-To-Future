@@ -1,0 +1,218 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: "Nimbus sans L";
+    box-sizing: border-box;
+}
+html,body{
+    width : 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+#nav a{
+    color: #111;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+#nav #centeratag{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#nleft{
+    font-size: 14px;
+    display: flex;
+    gap: 30px;
+}
+
+#hero{
+    width: 100%;
+    /* height: 100px; */
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 10vw;
+}
+#sustain{
+    width: 12vw;
+}
+#sustain p{
+    font-size: 14px;
+    font-weight: 800;
+    opacity: .5;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+#sustain #susimagewrapper{
+    width: 80%;
+    height: 15vw;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+}
+#sustain #susimagewrapper img{
+    width: 140%;
+    height: 140%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    object-fit: cover;
+}
+#ephemral{
+    width: 24vw;
+    min-height: 34vw;
+    position: relative;
+    /* background-color: rgb(212, 0, 0); */
+}
+#ephemral p{
+    width: 50%;
+    margin-top: 10%;
+}
+#heading{
+    position: absolute;
+    top: -15%;
+    left: -15%;
+}
+#heading h1{
+    font-size: 4vw;
+    font-weight: 100;
+}
+#ephemral>#img-container{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+#ephemral>#img-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#visit h3{
+    color: #5e5e5e;
+    font-size: 1.2vw;
+}
+
+#circlev{
+    height: 2.2vw;
+    width: 2.2vw;
+    border: 2px solid #5e5e5e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+#circlev i{
+    color: #5e5e5e;
+    font-size: 1.2vw;
+}
+
+#motive{
+    padding: 3vw 10vw;
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 3vw;
+}
+#motive h2{
+    font-weight: 200;
+    color: #5e5e5e;
+    opacity: 0.7;
+    font-size: 1.7vw;
+}
+#motive p{
+    padding-top: 3vw;
+    width: 80%;
+    font-weight: 800;
+    /* position: relative; */
+    text-align: right;
+    font-size: 1.6vw;
+}
+#motive span{
+    background-color: red;
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+    display: inline-block;
+    border-radius: 100px;
+}
+#one{
+    height: 40px;
+    width: 50px;
+    background-image: url('https://images.unsplash.com/photo-1531416738519-cf1b25c203cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTgwOTN8MHwxfHNlYXJjaHw4fHxnaXJsfGVufDB8fHx8MTY5Nzk0MTMzOXww&ixlib=rb-4.0.3&q=80&w=1080');
+    background-position: center;
+    background-size: cover;  
+}
+#two{
+    height: 40px;
+    width: 80px;
+    background-image: url('https://images.unsplash.com/photo-1494253109108-2e30c049369b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTgwOTN8MHwxfHNlYXJjaHw0fHxicmFuZHxlbnwwfHx8fDE2OTc5NDExNTZ8MA&ixlib=rb-4.0.3&q=80&w=1080');
+    background-position: center;
+    background-size: cover;
+}
+#three{
+    height: 40px;
+    width: 50px;
+    background-image: url(./profile-pic.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#synhar{
+    width:70%;
+    /* height: 50%; */
+    margin-left: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #5e5e5e;
+}
+#synergy{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+}
+#synergy #img-container{
+    width: 13%;
+    margin-bottom: 1vw;
+    /* height: 20%; */
+    background-color: red;
+    position: relative;
+}
+#synergy #img-container img{
+    width: 100%;
+    /* position: absolute;
+    top: 50%;
+    left: 50;
+    transform: translate(-50%, -50%); */
+    height: 100%;
+    object-fit: cover;
+}
+#synergy h3{
+    font-size: 1.6vw;
+    font-weight: 300;
+}
+#synergy p{
+    width: 14%;
+    margin-top: .5vw;
+
+}
